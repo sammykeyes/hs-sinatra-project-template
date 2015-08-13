@@ -1,0 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
+body {
+  background-color: mediumseagreen;
+}
+h1 {
+  color: white; 
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 500%;
+}
