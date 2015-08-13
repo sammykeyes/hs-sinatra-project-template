@@ -51,13 +51,13 @@ class ApplicationController < Sinatra::Base
     erb :writing
   end
   
-#   get '/lazy.erb' do
-#     erb :lazy
-#   end
+  get '/curious.erb' do
+    erb :curious
+  end
   
-#   get '/lazy.erb' do
-#     erb :lazy
-#   end
+    get '/creative.erb' do
+      erb :creative
+  end
   
 #   get '/lazy.erb' do
 #     erb :lazy
