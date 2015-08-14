@@ -16,7 +16,7 @@ class ApplicationController < Sinatra::Base
   end
   
   get '/physical_excercise.erb' do
-    erb :physical_excercise
+    erb :physical_excerc
   end
   
   get '/competitive.erb' do
