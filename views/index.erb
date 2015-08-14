@@ -12,16 +12,16 @@
    <center>  <a href="/"> <img src="images/Moodoo_logo.gif" alt="Moodoo Logo" style="width:300px;height:100px;"></a> 
 <!--    <h2 class = "col-sm-8 col-sm-offset-2"> If you are ready to leave the lonely town of Boredom, please click on your MOOD  or desired activity (what you want to DO) below. If you are indecisive like me, just choose Random... </h2>
      <br> -->
-     <h2 class = "logo col-sm-8 col-sm-offset-2"> Find out what to DO based on your MOOD! <br> Activity reccomendations to match your mood. </h2>
+     <h2 class = "logo col-sm-8 col-sm-offset-2"> Find out what to DO based on your MOOD! <br> Activity recommendations to match your mood. </h2>
      <br>
       <form method="POST" action="/submit">
-   <div class = "row col-sm-8 col-sm-offset-2"> First Name: 
+   <div class = "row col-sm-8 col-sm-offset-2 label"> First Name: 
      <br>
      <input type="text" name="name" placeholder="First Name" > 
      <br>
      <br> 
        </div> 
-    <div class ="row col-sm-10 col-sm-offset-1"> Mood:
+    <div class ="row col-sm-10 col-sm-offset-1 label"> Mood:
      <br>
       </div>
       <img src="images/lazy.JPG" alt="I'm Lazy" style="width:304px;height:228px;" >
@@ -45,11 +45,14 @@
             <div class ="radio row col-sm-3">
       <input type="radio" name="mood" id="Curious" class = "buttons" value ="curious"/>  
         <label for="Curious">Curious</label>
-       </div >
+       </div>
         
      <br>
      <br> 
+        <div class = "row">
+          <br>
      <input type="submit" class = "col-sm-6 col-sm-offset-3">
+        </div>
 <!--   <div class= "row col-sm-offset-2 col-sm-8"> 
     <h4 id = b class = "button"><a href = "02.html" >Random </a> </h4>
   </div>
