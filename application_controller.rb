@@ -119,7 +119,9 @@ class ApplicationController < Sinatra::Base
 #      erb :lazy #send all this info to dog.erb
 #   end 
   
-  
+  get '/about.erb' do
+    erb :about
+  end
   
   
   
@@ -127,3 +129,4 @@ class ApplicationController < Sinatra::Base
   
   
 end
+
