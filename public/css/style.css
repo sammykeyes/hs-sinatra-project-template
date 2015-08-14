@@ -14,7 +14,7 @@ h2 {
   color: #24578B;
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
-  font-size: 300%;
+  font-size: 200%;
 }
 h3 {
   color: #24578B;
@@ -33,9 +33,4 @@ h4 {
   font-family: 'Quicksand', sans-serif;
   font-size: 300%;
   
-}
-
-.links { 
-  color: #000000; 
-  text-decoration: none;
 }
