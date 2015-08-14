@@ -1,5 +1,16 @@
+h1 {
+  background-color: #24578B;
+  font-color: white;
+  
+}
+
 h2 {
   font-color: #24578B;
   font-size: 200%;
+  
+}
+
+ul {
+  font-size: 200%
   
 }
