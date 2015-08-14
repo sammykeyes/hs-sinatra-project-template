@@ -6,7 +6,7 @@
    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>Boredom</title>
+  <title>Moodoo: The Boredom Cure</title>
  </head>
  <body>
    <center>  <a href="/"> <img src="images/Moodoo_logo.gif" alt="Moodoo Logo" style="width:300px;height:100px;"></a> 
@@ -15,16 +15,16 @@
      <h2 class = "logo col-sm-8 col-sm-offset-2"> Find out what to DO based on your MOOD! <br> Activity recommendations to match your mood. </h2>
      <br>
       <form method="POST" action="/submit">
-   <div class = "row col-sm-8 col-sm-offset-2 label"> First Name: 
+   <div class = "row col-sm-8 col-sm-offset-2 label"> What's your name?
      <br>
      <input type="text" name="name" placeholder="First Name" > 
      <br>
      <br> 
        </div> 
-    <div class ="row col-sm-10 col-sm-offset-1 label"> Mood:
+    <div class ="row col-sm-10 col-sm-offset-1 label"> Select a Mood:
      <br>
       </div>
-      <img src="images/lazy.JPG" alt="I'm Lazy" style="width:304px;height:228px;" >
+      <img src="images/lazy.JPG" alt="I'm Lazy" style="width:304px;height:228px;" class ="">
       <img src="images/productive.JPG" alt="I'm Productive" style="width:304px;height:228px;">
       <img src="images/creative.JPG" alt="I'm Creative" style="width:304px;height:228px;">
       <img src="images/curious.JPG" alt="I'm Curious" style="width:304px;height:228px;">
@@ -68,6 +68,9 @@
    <h4 class = "act-title"> <a href = "views/tv.erb" >TV </a> </h4> -->
        </form>
    </center>
+   <div class="row footer col-sm-4 col-sm-offset-8">
+         <a href="/about.erb">About our WebApp Moodoo</a>
+      </div>
  </body>
 </html>
    
