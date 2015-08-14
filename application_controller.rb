@@ -1,3 +1,4 @@
+require_relative 'models/model.rb'
 require 'bundler'
 Bundler.require
 
@@ -70,38 +71,46 @@ class ApplicationController < Sinatra::Base
 #   get '/lazy.erb' do
 #     erb :lazy
 #   end
-  post '/creative' do 
+  post '/submit' do 
     #     well do stuff with data here 
     puts params
+    mood=params[:mood]
        #     helpful for debugging but user doesnt see it 
     #     params is a hash and access it below 
+    if mood = "creative"
      @mood1 = Mood.new(params[:name], params[:mood])
+      
      erb :creative #send all this info to dog.erb
+    elsif mood = "productive"
+      @mood1 = Mood.new(params[:name], params[:mood])
+      
+      erb :productive
+    end 
   end 
-  post '/productive' do 
-    #     well do stuff with data here 
-    puts params
-       #     helpful for debugging but user doesnt see it 
-    #     params is a hash and access it below 
-     @mood1 = Mood.new(params[:name], params[:mood])
-    erb :productive #send all this info to dog.erb
-  end 
-  post '/curious' do 
-    #     well do stuff with data here 
-    puts params
-       #     helpful for debugging but user doesnt see it 
-    #     params is a hash and access it below 
-     @mood1 = Mood.new(params[:name], params[:mood])
-     erb :curious #send all this info to dog.erb
-  end 
-  post '/lazy' do 
-    #     well do stuff with data here 
-    puts params
-       #     helpful for debugging but user doesnt see it 
-    #     params is a hash and access it below 
-     @mood1 = Mood.new(params[:name], params[:mood])
-     erb :lazy #send all this info to dog.erb
-  end 
+#   post '/productive' do 
+#     #     well do stuff with data here 
+#     puts params
+#        #     helpful for debugging but user doesnt see it 
+#     #     params is a hash and access it below 
+#      @mood1 = Mood.new(params[:name], params[:mood])
+#     erb :productive #send all this info to dog.erb
+#   end 
+#   post '/curious' do 
+#     #     well do stuff with data here 
+#     puts params
+#        #     helpful for debugging but user doesnt see it 
+#     #     params is a hash and access it below 
+#      @mood1 = Mood.new(params[:name], params[:mood])
+#      erb :curious #send all this info to dog.erb
+#   end 
+#   post '/lazy' do 
+#     #     well do stuff with data here 
+#     puts params
+#        #     helpful for debugging but user doesnt see it 
+#     #     params is a hash and access it below 
+#      @mood1 = Mood.new(params[:name], params[:mood])
+#      erb :lazy #send all this info to dog.erb
+#   end 
   
   
   
