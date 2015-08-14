@@ -10,9 +10,23 @@
  </head>
  <body>
    <center>  <a href="/"> <img src="images/Moodoo_logo.gif" alt="Moodoo Logo" style="width:300px;height:100px;"></a> 
-   <h2 class = "col-sm-8 col-sm-offset-2"> If you are ready to leave the lonely town of Boredom, please click on your MOOD  or desired activity (what you want to DO) below. If you are indecisive like me, just choose Random... </h2>
+<!--    <h2 class = "col-sm-8 col-sm-offset-2"> If you are ready to leave the lonely town of Boredom, please click on your MOOD  or desired activity (what you want to DO) below. If you are indecisive like me, just choose Random... </h2>
+     <br> -->
+     <h2 class = "col-sm-8 col-sm-offset-2"> Find out what to DO based on your MOOD! </h2>
      <br>
-  <div class= "row col-sm-offset-2 col-sm-8"> 
+     <form method="POST" action="/dog">
+    First Name: 
+     <br>
+     <input type="text" name="name" placeholder="First Name" > 
+     <br>
+     <br> 
+     Mood:
+     <br>
+     <input type="radio" name="mood" value=Productive>
+     <br>
+     <br> 
+     <input type="submit">
+<!--   <div class= "row col-sm-offset-2 col-sm-8"> 
     <h4 id = b class = "button"><a href = "02.html" >Random </a> </h4>
   </div>
    <h4 id = g class = "cat-title row col-sm-offset-2 col-sm-8"> I'm feeling...  </h4>
@@ -24,7 +38,8 @@
        <h4 class = "moo-title col-sm-3"> <a href = "curious.erb" >Curious</a> </h4>
      </div>
    <h4 class = "cat-title"> Activity </h4>
-   <h4 class = "act-title"> <a href = "views/tv.erb" >TV </a> </h4>
+   <h4 class = "act-title"> <a href = "views/tv.erb" >TV </a> </h4> -->
+       </form>
    </center>
  </body>
 </html>

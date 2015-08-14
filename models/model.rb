@@ -1,8 +1,8 @@
 class Mood
-  attr_accessor :name, :color 
-  def initialize (name, color)
+  attr_accessor :name, :mood 
+  def initialize (name, mood)
     @name = name.capitalize
-    @color = color.capitalize
+    @mood = mood.capitalize
   end 
   
 end 
