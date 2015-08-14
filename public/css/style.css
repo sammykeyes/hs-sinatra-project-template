@@ -41,3 +41,11 @@ h4 {
   font-size: 200%;
   font-weight: bold;
 }
+
+.label {
+  color: #24578B;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 230%;
+  font-weight: bold;
+  
+}
