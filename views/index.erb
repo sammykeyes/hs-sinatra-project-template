@@ -15,27 +15,41 @@
      <h2 class = "logo col-sm-8 col-sm-offset-2"> Find out what to DO based on your MOOD! </h2>
      <br>
       <form method="POST" action="/dog">
-   <div class = "row"> First Name: 
+   <div class = "row col-sm-8 col-sm-offset-2"> First Name: 
      <br>
      <input type="text" name="name" placeholder="First Name" > 
      <br>
      <br> 
        </div> 
-    <div class ="row"> Mood:
+    <div class ="row col-sm-10 col-sm-offset-1"> Mood:
      <br>
-     <input type="radio" name="mood" id="lazy" /> Lazy 
-        <label for="lazy"><img src="." alt="I'm lazy" /></label>
-      <input type="radio" name="mood" id="Productive" /> Productive 
-        <label for="Productive"><img src="." alt="I'm productive" /></label>
-      <input type="radio" name="mood" id="Creative" /> Creative 
-        <label for="Creative"><img src="." alt="I'm creative" /></label>
-      <input type="radio" name="mood" id="Curious" /> Curious 
-        <label for="Curious"><img src="." alt="I'm curious" /></label>
+      </div>
+      <img src="public/images/lazy.jpg" alt="I'm Lazy" style="width:304px;height:228px;">
+      <img src="images/productive.jpg" alt="I'm Productive" style="width:304px;height:228px;">
+      <img src="images/creative.jpg" alt="I'm Creative" style="width:304px;height:228px;">
+      <img src="images/curious.jpg" alt="I'm Curious" style="width:304px;height:228px;">
+    
+        <div class ="row col-sm-3">
+              <input type="radio" name="mood" id="lazy" class = "buttons"/> 
+           <label for="lazy">Lazy</label>
+        </div>
+        
+        <div class ="row col-sm-3">
+      <input type="radio" name="mood" id="Productive" class = "buttons" />  
+        <label for="Productive">Productive</label>
+        </div>
+            <div class ="row col-sm-3">
+      <input type="radio" name="mood" id="Creative" class = "buttons"/>  
+        <label for="Creative">Creative</label>
+              </div>
+            <div class ="row col-sm-3">
+      <input type="radio" name="mood" id="Curious" class = "buttons"/>  
+        <label for="Curious">Curious</label>
        </div >
         
      <br>
      <br> 
-     <input type="submit">
+     <input type="submit" class = "col-sm-6 col-sm-offset-3">
 <!--   <div class= "row col-sm-offset-2 col-sm-8"> 
     <h4 id = b class = "button"><a href = "02.html" >Random </a> </h4>
   </div>
