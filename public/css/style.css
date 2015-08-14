@@ -14,7 +14,7 @@ h2 {
   color: #24578B;
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
-  font-size: 200%;
+  font-size: 300%;
 }
 h3 {
   color: #24578B;
@@ -34,18 +34,33 @@ h4 {
   font-size: 300%;
   
 }
-
+.footer
+{
+  margin: 0px;
+  background-color: blue;
+  border: 1px solid blue;
+  opacity:0.7; 
+}
+.footer a
+{
+  margin: 2%;
+  padding: 0%;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: "Amatic SC";
+  line-height: 185%;
+  font-size: 200%;
+}
 .radio {
   color: #24578B;
   font-family: 'Quicksand', sans-serif;
   font-size: 200%;
   font-weight: bold;
+    
 }
-
 .label {
-  color: #24578B;
+    color: #24578B;
   font-family: 'Quicksand', sans-serif;
   font-size: 230%;
   font-weight: bold;
-  
 }
