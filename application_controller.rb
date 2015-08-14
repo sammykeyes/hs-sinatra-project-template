@@ -85,6 +85,13 @@ class ApplicationController < Sinatra::Base
       @mood1 = Mood.new(params[:name], params[:mood])
       
       erb :productive
+    elsif mood = "lazy"
+      @mood1 = Mood.new(params[:name], params[:mood])
+      
+      erb :lazy
+    elsif mood = "curious"
+      @mood1 = Mood.new(params[:name], params[:mood])
+      erb :curious
     end 
   end 
 #   post '/productive' do 
