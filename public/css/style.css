@@ -1,29 +1,29 @@
 @import url(http://fonts.googleapis.com/css?family=Slackey);
 @import url(http://fonts.googleapis.com/css?family=Quicksand);
 body {
-  background-color: mediumseagreen;
+  background-color: white;
 }
 h1 {
-  color: white; 
+  color: blue; 
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
   font-size: 600%;
 }
 
 h2 {
-  color: aliceblue;
+  color: blue;
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
   font-size: 300%;
 }
 h3 {
-  color: aliceblue;
+  color: blue;
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
   font-size: 200%;
 }
 h4 {
-  color: aliceblue;
+  color: blue;
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
   font-size: 150%;
