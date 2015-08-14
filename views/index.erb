@@ -14,15 +14,25 @@
      <br> -->
      <h2 class = "logo col-sm-8 col-sm-offset-2"> Find out what to DO based on your MOOD! </h2>
      <br>
-     <form method="POST" action="/dog">
-    First Name: 
+      <form method="POST" action="/dog">
+   <div class = "row"> First Name: 
      <br>
      <input type="text" name="name" placeholder="First Name" > 
      <br>
      <br> 
-     Mood:
+       </div> 
+    <div class ="row"> Mood:
      <br>
-     <input type="radio" name="mood" value=Productive> Productive
+     <input type="radio" name="mood" id="lazy" /> Lazy 
+        <label for="lazy"><img src="." alt="I'm lazy" /></label>
+      <input type="radio" name="mood" id="Productive" /> Productive 
+        <label for="Productive"><img src="." alt="I'm productive" /></label>
+      <input type="radio" name="mood" id="Creative" /> Creative 
+        <label for="Creative"><img src="." alt="I'm creative" /></label>
+      <input type="radio" name="mood" id="Curious" /> Curious 
+        <label for="Curious"><img src="." alt="I'm curious" /></label>
+       </div >
+        
      <br>
      <br> 
      <input type="submit">
