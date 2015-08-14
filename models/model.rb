@@ -1,9 +1,8 @@
 class Mood
-  attr_accessor :name, :color , :age
-  def initialize (name, breed, age)
+  attr_accessor :name, :color 
+  def initialize (name, color)
     @name = name.capitalize
-    @breed = breed.capitalize
-    @age = age
+    @color = color.capitalize
   end 
   
 end 
