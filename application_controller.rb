@@ -17,7 +17,7 @@ class ApplicationController < Sinatra::Base
   end
   
   get '/physical_excercise.erb' do
-    erb :physical_excerc
+    erb :physical_excercise
   end
   
   get '/competitive.erb' do
@@ -77,19 +77,19 @@ class ApplicationController < Sinatra::Base
     mood=params[:mood]
        #     helpful for debugging but user doesnt see it 
     #     params is a hash and access it below 
-    if mood = "creative"
+    if mood == "creative"
      @mood1 = Mood.new(params[:name], params[:mood])
       
      erb :creative #send all this info to dog.erb
-    elsif mood = "productive"
+    elsif mood == "productive"
       @mood1 = Mood.new(params[:name], params[:mood])
       
       erb :productive
-    elsif mood = "lazy"
+    elsif mood == "lazy"
       @mood1 = Mood.new(params[:name], params[:mood])
       
       erb :lazy
-    elsif mood = "curious"
+    elsif mood == "curious"
       @mood1 = Mood.new(params[:name], params[:mood])
       erb :curious
     end 
