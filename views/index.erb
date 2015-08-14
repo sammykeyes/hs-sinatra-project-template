@@ -12,9 +12,9 @@
    <center>  <a href="/"> <img src="images/Moodoo_logo.gif" alt="Moodoo Logo" style="width:300px;height:100px;"></a> 
 <!--    <h2 class = "col-sm-8 col-sm-offset-2"> If you are ready to leave the lonely town of Boredom, please click on your MOOD  or desired activity (what you want to DO) below. If you are indecisive like me, just choose Random... </h2>
      <br> -->
-     <h2 class = "logo col-sm-8 col-sm-offset-2"> Find out what to DO based on your MOOD! <br> activity recommendations to match your mood </h2>
+     <h2 class = "logo col-sm-8 col-sm-offset-2"> Find out what to DO based on your MOOD! </h2>
      <br>
-      <form method="POST" action="/dog">
+      <form method="POST" action="/submit">
    <div class = "row col-sm-8 col-sm-offset-2"> First Name: 
      <br>
      <input type="text" name="name" placeholder="First Name" > 
@@ -24,26 +24,26 @@
     <div class ="row col-sm-10 col-sm-offset-1"> Mood:
      <br>
       </div>
-      <img src="public/images/lazy.jpg" alt="I'm Lazy" style="width:304px;height:228px;">
-      <img src="images/productive.jpg" alt="I'm Productive" style="width:304px;height:228px;">
-      <img src="images/creative.jpg" alt="I'm Creative" style="width:304px;height:228px;">
-      <img src="images/curious.jpg" alt="I'm Curious" style="width:304px;height:228px;">
+      <img src="images/lazy.JPG" alt="I'm Lazy" style="width:304px;height:228px;" >
+      <img src="images/productive.JPG" alt="I'm Productive" style="width:304px;height:228px;">
+      <img src="images/creative.JPG" alt="I'm Creative" style="width:304px;height:228px;">
+      <img src="images/curious.JPG" alt="I'm Curious" style="width:304px;height:228px;">
     
         <div class ="row col-sm-3">
-              <input type="radio" name="mood" id="lazy" class = "buttons"/> 
+              <input type="radio" name="mood" id="lazy" class = "buttons" value="lazy"/> 
            <label for="lazy">Lazy</label>
         </div>
         
         <div class ="row col-sm-3">
-      <input type="radio" name="mood" id="Productive" class = "buttons" />  
+      <input type="radio" name="mood" id="Productive" class = "buttons" value="productive"/>  
         <label for="Productive">Productive</label>
         </div>
             <div class ="row col-sm-3">
-      <input type="radio" name="mood" id="Creative" class = "buttons"/>  
+      <input type="radio" name="mood" id="Creative" class = "buttons" value="creative"/>  
         <label for="Creative">Creative</label>
               </div>
             <div class ="row col-sm-3">
-      <input type="radio" name="mood" id="Curious" class = "buttons"/>  
+      <input type="radio" name="mood" id="Curious" class = "buttons" value ="curious"/>  
         <label for="Curious">Curious</label>
        </div >
         
