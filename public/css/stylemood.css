@@ -1,11 +1,17 @@
+body {
+  border-color: #24578B;
+  
+}
+
 h1 {
   background-color: #24578B;
-  font-color: white;
+  color: white;
+  font-size: 250%;
   
 }
 
 h2 {
-  font-color: #24578B;
+  color: #24578B;
   font-size: 200%;
   
 }
